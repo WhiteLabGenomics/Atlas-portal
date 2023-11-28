@@ -1,9 +1,9 @@
-name: Clean up stale happy stacks every hour
+name: Clean up stale happy stacks every year
 
 on:
   schedule:
-    # Runs "every 55th minute" (see https://crontab.guru)
-    - cron: "55 * * * *"
+    # Runs "At 00:00 on day-of-month 1 in November." (see https://crontab.guru)
+    - cron: "0 0 1 11 *"
 
 permissions:
   id-token: write

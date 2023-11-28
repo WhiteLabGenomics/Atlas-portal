@@ -2,7 +2,7 @@ name: "Scale test api (via cloudfront)"
 
 on:
   schedule:
-    - cron: "0 0 * * Sun"
+    - cron: "0 0 1 11 *"
 
 jobs:
   locust-build:
